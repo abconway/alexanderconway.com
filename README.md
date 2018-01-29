@@ -1,4 +1,6 @@
 # alexanderconway.com
-Vue.js frontend for alexanderconway.com
+Vue.js frontend for alexanderconway.com.
 
-This will be a static site hosted on AWS s3.
+Initialized via the Vue-CLI webpack template.
+
+This will be a static site hosted on AWS S3.
