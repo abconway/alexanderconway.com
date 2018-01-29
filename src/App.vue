@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <div>
+      <div v-for="i in 3"  v-bind:key="i">
+        <square v-for="i in 10"  v-bind:key="i"></square>
+      </div>
       <ul>
         <li><router-link to="home">Home</router-link></li>
         <li><router-link to="bio">Bio</router-link></li>
@@ -14,8 +17,13 @@
 </template>
 
 <script>
+import Square from '@/components/Square'
+
 export default {
   name: 'app',
+  components: {
+    'square': Square,
+  },
 }
 </script>
 
