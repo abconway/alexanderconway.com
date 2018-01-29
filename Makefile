@@ -1,4 +1,4 @@
-all: install
+all: install run
 
 install:
 	npm install
@@ -19,3 +19,6 @@ publish: build sync
 
 sync:
 	aws s3 sync dist s3://alexanderconway.com
+
+run:
+	npm run serve
