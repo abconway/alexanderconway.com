@@ -1,5 +1,5 @@
 # alexanderconway.com
-Vue.js frontend for alexanderconway.com build via the Vue-CLI webpack template and hosted on AWS S3.
+Vue.js frontend for alexanderconway.com built via the Vue-CLI webpack template and hosted on AWS S3.
 
 ## Dependencies
 Node/NPM
