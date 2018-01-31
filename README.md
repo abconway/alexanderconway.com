@@ -3,7 +3,7 @@ Vue.js frontend for alexanderconway.com built via the Vue-CLI webpack template a
 
 ## Dependencies
 Node/NPM
-Python, preferably in a virtualenv
+Python
 AWS CLI credentials with permissions to S3
 
 ## Quickstart
