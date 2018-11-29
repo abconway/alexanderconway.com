@@ -21,4 +21,3 @@ make test
 ```
 make publish
 ```
-
